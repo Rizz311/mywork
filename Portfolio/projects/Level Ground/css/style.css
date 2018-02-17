@@ -1,0 +1,331 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
+
+header, footer{
+  clear: both;
+}
+header{
+  background-color: #66768A;
+  width: 100%;
+  float: left;
+  color: white;
+  font-weight: bold;
+}
+header section ul li,
+ header section img,
+ header section input,
+ section.ht,
+ .ht li,
+ .ht img,
+ .ht input,
+.ht h1,
+.ht p,
+.ht img,
+.ht span,
+section.visit,
+section.left,
+section.right,
+sectionS.foot{
+  float: left;
+}
+header ul li{
+  list-style: none;
+}
+section.ht,
+section.visit,
+section.bottom{
+  width: 100%;
+}
+.ht li:nth-of-type(2){
+  margin-left: 1%;
+}
+.ht img{
+  margin-left: 35%;
+  float: left;
+}
+.ht input{
+  margin-left: 40%;
+}
+.ht h1{
+  font-size: 60px;
+  margin-left: 10%;
+}
+.ht p{
+  text-align: center;
+  font-size: 16px;
+  margin-left: 20%;
+  width: 60%
+}
+.ht img:nth-of-type(2){
+  margin-left: 40%;
+  float: left;
+}
+.ht span:nth-of-type(1){
+  margin-top: 20px;
+  margin-right: 40%;
+  margin-bottom: 50px
+}
+.ht span:nth-of-type(2){
+  color: black;
+  font-style: italic;
+  margin-left: 43%;
+  padding-bottom: 50px;
+}
+section.mid,
+section.bottom{
+  background-color: white;
+  float: left;
+  color: black;
+  width: 100%;
+}
+.mid h2,
+.bottom h3{
+  font-size: 40px;
+  text-align: center;
+}
+.mid p,
+.bottom p{
+  margin-left: 35%;
+  width: 30%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+}
+section.visit{
+  width: 100%;
+  background-color: #DBDFE2;
+  color: black;
+  float: left;
+  padding-bottom: 100px;
+}
+section.left, section.right{
+  width: 50%
+}
+div{
+  background-color: #66768A;
+  height: 150px;
+  width: 250px;
+  float: left;
+  margin-left: 30%;
+  margin-top: 50px;
+}
+.left span, p,
+.right span, p{
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.left p,
+.right p{
+  width: 49%;
+  margin-left: 25%;
+  margin-right: 10%;
+}
+.left span:nth-of-type(2),
+.right span:nth-of-type(2),
+.bottom span{
+  border: 1px solid gray;
+  background-color: transparent;
+  width: 20%;
+  padding: 20px 0;
+  margin-left: 40%;
+}
+.bottom span{
+    margin-left: 45%;
+    float: left;
+    text-align: center;
+    width: 10%
+}.bottom h3{
+  margin-bottom: 0;
+}
+section.bottom{
+  padding-bottom: 100px;
+}
+footer{
+  background-color: black;
+  width: 100%;
+  float: left;
+  color: white;
+}
+footer img{
+  float: left;
+  width: 2.5%;
+}
+section.foot,
+section.foot2{
+  width: 49%;
+}
+footer span:nth-of-type(1),
+footer span:nth-of-type(4){
+  width: 100%;
+  margin-left: 2%;
+}
+.foot img{
+  background-color: white;
+}
+.foot span:nth-of-type(1),
+.foot span:nth-of-type(2),
+.foot span:nth-of-type(3),
+.foot span:nth-of-type(4),
+.foot span:nth-of-type(5),
+.foot span:nth-of-type(6),
+section.foot2,
+section.foot{
+  float: left;
+}
+.foot span:nth-of-type(1),
+.foot span:nth-of-type(4){
+  color: #66768A;
+}
+.foot span{
+  font-size: 12px;
+  font-weight: bold;
+}
+footer span:nth-of-type(6){
+margin-left: 3%
+}
+footer img:nth-of-type(2){
+  margin: 0 2%;
+}
+footer ul{
+  list-style: none;
+  float: right;
+  width: 50%;
+}
+.foot span:nth-of-type(3){
+  margin-left: 12px;
+}
+section.foot{
+  margin-left: 2%;
+}
+.foot2 li:nth-of-type(1),
+.foot2 li:nth-of-type(2),
+.foot2 li:nth-of-type(6){
+font-weight: bold;
+}
+@media only screen and (max-width: 720px){
+.ht ul{
+  float: left;
+}
+.ht img{
+  margin-left: 0;
+}
+.ht input{
+  margin-left: 10%;
+}
+.ht h1{
+  text-align: center;
+  margin-left: 0;
+  font-size: 30px;
+}
+.ht span:nth-of-type(1){
+  text-align: center;
+  margin-left: 40%;
+}
+.ht span:nth-of-type(2){
+  margin-left: 30%;
+}
+.mid p{
+  margin-left: 0;
+  width: 100%;
+}
+div{
+  display: none;
+}
+.left span:nth-of-type(2){
+padding: 10px 50% 10px 30%;
+margin-left: 10%;
+}
+.right span:nth-of-type(2), 
+.bottom p{
+  padding-left: 40px;
+  padding-right: 60px;
+  float: left;
+  margin-left: 10%;
+  padding-bottom: 0px;
+}
+.bottom span{
+  float: left;
+  padding-right: 30%;
+  padding-left: 5%;
+  margin-left: 30%;
+}
+.foot img{
+  display: none;
+}
+footer ul{
+  float: left;
+}
+}

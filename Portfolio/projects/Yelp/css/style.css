@@ -1,0 +1,329 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
+header, footer{
+  clear: both;
+}
+.main{
+  background-image: url(../img/yelpback.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+}
+.main ul{
+  list-style: none;
+
+}
+.main, ul, li{
+  float: left;
+  padding-left: 5%;
+}
+.main ul{
+  width: 50%;
+}
+ul.right{
+  padding-left: 10%;
+}
+.main ul:nth-of-type(1){
+  margin-top: 30px;
+  padding-left: 0;
+}
+.right li:nth-of-type(2){
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 2%;
+  margin-left: 10%;
+  border-radius: 4px;
+}
+.right li:nth-of-type(1){
+  margin-top: 15px;
+  margin-left: 40%;
+}
+.yelp{
+  width: 10%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 0px;
+  padding-top: 100px;
+}
+.bar{
+  border: 1px solid white;
+  color: black;
+  background-color: white;
+  padding: 1%;
+  border-radius: 2px;
+}
+ul.bar{
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-left: auto;
+  display: block;
+  width: 80%;
+  margin-top: 40px;
+  margin-left: 5%;
+}
+.bar li:nth-of-type(2){
+  font-weight: 100;
+  color: gray;
+}
+.search{
+  background-color: red;
+  width: 5%;
+  float: left;
+  margin-top: 39px;
+  margin-right: 0px;
+  padding: 11px 14px 5px 15px;
+}
+.bar li:nth-of-type(4){
+  font-weight: 200;
+}
+.bar li:nth-of-type(3){
+  margin-left: 20%;
+  border-left: 1px solid gray;
+  padding-left: 1%;
+}
+.main ul:nth-of-type(4){
+  width: 100%;
+  margin-left: 20%;
+  margin-bottom: 250px;
+}
+.main span{
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.main span:nth-of-type(2){
+  font-weight: 100;
+}
+.mid .bottom{
+  width: 100%;
+  float: left;
+}
+.red{
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  display: block;
+}
+.mid ul li{
+  float: left;
+}
+.mid ul{
+  width: 100%;
+  margin-left: 10%;
+  list-style: none;
+}
+section.rev{
+  border: 1px solid gray;
+  float: left;
+
+}
+section.rev{
+  width: 20%;
+}
+.rev img{
+  width: 100%;
+  height: 200px;
+}
+span.blue{
+  font-size: 16px;
+  font-weight: bold;
+  color: blue;
+  width: 100%;
+  float: left;
+}
+ .star-rating{
+  float: left;
+  border: 1px solid #D32323;
+  background-color: #D32323;
+  border-radius: 3px;
+  font-size: 1.3em;
+  color: white;
+  padding: 2px;
+  margin-right: .5%
+}
+.star-rating2{
+  float: left;
+  border: 1px solid #FF9242;
+  background-color: #FF9242;
+  border-radius: 3px;
+  font-size: 1.3em;
+  color: white;
+  padding: 2px;
+  margin-right: .5%
+}
+.star-rating3{
+  float: left;
+  border: 1px solid #CCCCCC;
+  background-color: #CCCCCC;
+  border-radius: 3px;
+  font-size: 1.3em;
+  color: white;
+  padding: 2px;
+  margin-right: .5%
+}
+.rev:nth-of-type(1){
+  margin-left: 18%;
+}
+.rev:nth-of-type(2){
+  margin:0 2%;
+}
+img.hot{
+  height: 1%;
+  width: 5%
+}
+.hot{
+  color: #F15C00;
+}
+.desc{
+  padding-left: 2%
+}
+.bottom span.blue:nth-last-of-type(1){
+  text-align: center;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+footer{
+  background-color: #F5F5F5;
+  width: 100%;
+  border-bottom: 5px solid black;
+  float: left;
+}
+footer span{
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin: 20px 0
+}
+.foot{
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 4px;
+  float: left;
+  text-align: center;
+  margin: 15px 2%;
+  padding: 10px 50px;
+}
+section.foot:nth-of-type(1){
+  margin-left: 15%;
+}
+@media only screen and (max-width: 720px){
+  .main ul:nth-of-type(1){
+    display: none;
+  }
+  header ul.right,
+  section.rev{
+    width: 100%;
+  }
+  .right li:nth-of-type(1){
+    margin: 5px 0 0 0;
+  }
+  .right li:nth-of-type(2){
+    float: right;
+  }
+  .yelp{
+    width: 20%;
+  }
+  ul.bar{
+    width: 50%;
+  }
+  .bar li:nth-of-type(2n){
+    display: none;
+  }
+  .main ul:nth-of-type(4){
+    margin-left: 0;
+  }
+  .mid ul li:nth-of-type(2n+1){
+    display: none;
+  }
+  .rev:nth-of-type(1),
+  .rev:nth-of-type(2){
+    margin: 0;
+  }
+  .foot{
+    margin: 25% 25%;
+  }
+  section.foot:nth-of-type(1){
+    margin-left: 25%;
+  }
+}
